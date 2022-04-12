@@ -15,12 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-       let mainVC = ViewController()
- 
         window = UIWindow(frame: UIScreen.main.bounds)
-        UITabBar.appearance().tintColor = .systemGray
         window?.overrideUserInterfaceStyle = .light
-        window?.rootViewController = mainVC
+        window?.backgroundColor = .white
+        let router = MainRouter()
+        window?.rootViewController = router.returnController()
         window?.makeKeyAndVisible()
         return true
     }
