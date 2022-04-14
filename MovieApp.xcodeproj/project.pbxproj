@@ -16,6 +16,10 @@
 		1157D9E22805F87300C07091 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1157D9E12805F87300C07091 /* SnapKit */; };
 		1157D9E42805FB5A00C07091 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1157D9E32805FB5A00C07091 /* MainRouter.swift */; };
 		1157D9E82806014F00C07091 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1157D9E72806014F00C07091 /* ViewController2.swift */; };
+		118CBF5628080538008EBADD /* GalleryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CBF5528080538008EBADD /* GalleryCollectionView.swift */; };
+		118CBF58280805A9008EBADD /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CBF57280805A9008EBADD /* GalleryCollectionViewCell.swift */; };
+		118CBF5A28080F8A008EBADD /* ZoomAndSnapFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CBF5928080F8A008EBADD /* ZoomAndSnapFlowLayout.swift */; };
+		118CBF5C28081EB4008EBADD /* TradingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CBF5B28081EB4008EBADD /* TradingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		1157D9DA2805F63600C07091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1157D9E32805FB5A00C07091 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		1157D9E72806014F00C07091 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		118CBF5528080538008EBADD /* GalleryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionView.swift; sourceTree = "<group>"; };
+		118CBF57280805A9008EBADD /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		118CBF5928080F8A008EBADD /* ZoomAndSnapFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAndSnapFlowLayout.swift; sourceTree = "<group>"; };
+		118CBF5B28081EB4008EBADD /* TradingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,10 @@
 				1157D9C92805F63300C07091 /* AppDelegate.swift */,
 				1157D9CB2805F63300C07091 /* SceneDelegate.swift */,
 				1157D9CD2805F63300C07091 /* ViewController.swift */,
+				118CBF5528080538008EBADD /* GalleryCollectionView.swift */,
+				118CBF57280805A9008EBADD /* GalleryCollectionViewCell.swift */,
+				118CBF5928080F8A008EBADD /* ZoomAndSnapFlowLayout.swift */,
+				118CBF5B28081EB4008EBADD /* TradingModel.swift */,
 				1157D9E72806014F00C07091 /* ViewController2.swift */,
 				1157D9E32805FB5A00C07091 /* MainRouter.swift */,
 				1157D9D52805F63600C07091 /* Assets.xcassets */,
@@ -151,8 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118CBF5628080538008EBADD /* GalleryCollectionView.swift in Sources */,
+				118CBF58280805A9008EBADD /* GalleryCollectionViewCell.swift in Sources */,
 				1157D9E82806014F00C07091 /* ViewController2.swift in Sources */,
+				118CBF5A28080F8A008EBADD /* ZoomAndSnapFlowLayout.swift in Sources */,
 				1157D9E42805FB5A00C07091 /* MainRouter.swift in Sources */,
+				118CBF5C28081EB4008EBADD /* TradingModel.swift in Sources */,
 				1157D9CE2805F63300C07091 /* ViewController.swift in Sources */,
 				1157D9CA2805F63300C07091 /* AppDelegate.swift in Sources */,
 				1157D9D42805F63300C07091 /* MovieApp.xcdatamodeld in Sources */,
